@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tic Tac Teo Game --subrata cooder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Tic Tac Teo</h1>
+    <div id="game_box">
+      <div id="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+      <button class="Re_btn">Restart</button>
+    </div>
+    
+    <!-- result start from here -->
+    <div id="result_box" class="hide">
+      <div>
+        Congatulation winner is <span id="result"></span>
+      </div>
+      <button class="Re_btn">New Game</button>
+    </div>
+  </div>
+<audio src="gameOver.mp3" id="overSound"></audio>
+<audio src="click.mp3" id="clickSound"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
